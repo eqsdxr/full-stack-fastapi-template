@@ -122,7 +122,7 @@ One way to do it could be to add each environment variable to your CI/CD system,
 
 ## Pre-commits and code linting
 
-we are using a tool called [pre-commit](https://pre-commit.com/) for code linting and formatting.
+We are using a tool called [pre-commit](https://pre-commit.com/) for code linting and formatting.
 
 When you install it, it runs right before making a commit in git. This way it ensures that the code is consistent and formatted even before it is committed.
 
@@ -153,7 +153,7 @@ Then you can `git add` the modified/fixed files again and now you can commit.
 
 #### Running pre-commit hooks manually
 
-you can also run `pre-commit` manually on all the files, you can do it using `uv` with:
+You can also run `pre-commit` manually on all the files, you can do it using `uv` with:
 
 ```bash
 ❯ uv run pre-commit run --all-files
